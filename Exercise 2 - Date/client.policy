@@ -1,0 +1,4 @@
+grant codeBase "file:///I:/My%20Documents/PiJ/PiJ-Day21/Exercise%202%20-%20Date/" {
+    permission java.security.AllPermission;
+    permission java.security.SocketPermission "*:1024-", "accept, resolve";
+};
